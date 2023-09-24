@@ -9,6 +9,7 @@ export default mergeConfig(
       globals: true,
       environment: "jsdom",
       exclude: [...configDefaults.exclude],
+      include: ["src/**/*.{test,spec}.?(c|m)[jt]s?(x)"],
     },
   })
 );
