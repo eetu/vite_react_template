@@ -19,7 +19,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.7.5":
+"@antfu/utils@npm:^0.7.6":
   version: 0.7.6
   resolution: "@antfu/utils@npm:0.7.6"
   checksum: 92bf38ded4364e237c401e546eef3dbcc383186e1515e1e1c5c505d19ae12d8702cac7527b94c28f12ab6063d26969798297980619d42aba76771d8f3bc7f620
@@ -357,7 +357,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.0.2, @rollup/pluginutils@npm:^5.0.4":
+"@rollup/pluginutils@npm:^5.0.4":
   version: 5.0.4
   resolution: "@rollup/pluginutils@npm:5.0.4"
   dependencies:
@@ -370,6 +370,22 @@ __metadata:
     rollup:
       optional: true
   checksum: 893d5805ac4121fc704926963a0ae4e79e9e2bc8d736c3b28499ab69a404cce5119ca3a4e0c3d3a81d62f1beb3966f35285c36935d94b061794f26e94fed4cd1
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^5.0.5":
+  version: 5.0.5
+  resolution: "@rollup/pluginutils@npm:5.0.5"
+  dependencies:
+    "@types/estree": ^1.0.0
+    estree-walker: ^2.0.2
+    picomatch: ^2.3.1
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: dcd4d6e3cb6047f18c465a5f2bcd29995c565f083fb6ca5505bcf2018ae0c16634fd38d99538fbb7dcef4e1b491cf4b4465f8845b5666778a925a27e9202dbab
   languageName: node
   linkType: hard
 
@@ -1865,7 +1881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1":
+"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.1":
   version: 3.3.1
   resolution: "fast-glob@npm:3.3.1"
   dependencies:
@@ -2716,6 +2732,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"local-pkg@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "local-pkg@npm:0.5.0"
+  dependencies:
+    mlly: ^1.4.2
+    pkg-types: ^1.0.3
+  checksum: b0a6931e588ad4f7bf4ab49faacf49e07fc4d05030f895aa055d46727a15b99300d39491cf2c3e3f05284aec65565fb760debb74c32e64109f4a101f9300d81a
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^6.0.0":
   version: 6.0.0
   resolution: "locate-path@npm:6.0.0"
@@ -2800,6 +2826,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.30.5":
+  version: 0.30.5
+  resolution: "magic-string@npm:0.30.5"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.15
+  checksum: da10fecff0c0a7d3faf756913ce62bd6d5e7b0402be48c3b27bfd651b90e29677e279069a63b764bcdc1b8ecdcdb898f29a5c5ec510f2323e8d62ee057a6eb18
+  languageName: node
+  linkType: hard
+
 "make-fetch-happen@npm:^11.0.3":
   version: 11.1.1
   resolution: "make-fetch-happen@npm:11.1.1"
@@ -2872,7 +2907,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.1, minimatch@npm:^9.0.2":
+"minimatch@npm:^9.0.1, minimatch@npm:^9.0.3":
   version: 9.0.3
   resolution: "minimatch@npm:9.0.3"
   dependencies:
@@ -2974,7 +3009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mlly@npm:^1.2.0, mlly@npm:^1.4.0, mlly@npm:^1.4.1":
+"mlly@npm:^1.2.0, mlly@npm:^1.4.0, mlly@npm:^1.4.2":
   version: 1.4.2
   resolution: "mlly@npm:1.4.2"
   dependencies:
@@ -3954,22 +3989,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^3.0.14":
-  version: 3.3.0
-  resolution: "unimport@npm:3.3.0"
+"unimport@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "unimport@npm:3.4.0"
   dependencies:
     "@rollup/pluginutils": ^5.0.4
     escape-string-regexp: ^5.0.0
     fast-glob: ^3.3.1
     local-pkg: ^0.4.3
     magic-string: ^0.30.3
-    mlly: ^1.4.1
+    mlly: ^1.4.2
     pathe: ^1.1.1
     pkg-types: ^1.0.3
     scule: ^1.0.0
     strip-literal: ^1.3.0
-    unplugin: ^1.4.0
-  checksum: ede3cb5220840add811583c0a65cdf3ea14af6d3eb6cd2b8703120aaa5df9eba9d3c42bd43dd0c9f0502e521e0016d8b6e9e6df5f70479bdb4163895ce415dd9
+    unplugin: ^1.5.0
+  checksum: 704e3a29a9bc2d988adeff22db6d9670913fc4318085541c4e57f5f0a279ee41dcdd23a9230d10a67121bc2705467bd0bc354fab93c6f462403cf2a65865d2a4
   languageName: node
   linkType: hard
 
@@ -3998,18 +4033,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.16.6":
-  version: 0.16.6
-  resolution: "unplugin-auto-import@npm:0.16.6"
+"unplugin-auto-import@npm:^0.16.7":
+  version: 0.16.7
+  resolution: "unplugin-auto-import@npm:0.16.7"
   dependencies:
-    "@antfu/utils": ^0.7.5
-    "@rollup/pluginutils": ^5.0.2
-    fast-glob: ^3.3.0
-    local-pkg: ^0.4.3
-    magic-string: ^0.30.1
-    minimatch: ^9.0.2
-    unimport: ^3.0.14
-    unplugin: ^1.3.2
+    "@antfu/utils": ^0.7.6
+    "@rollup/pluginutils": ^5.0.5
+    fast-glob: ^3.3.1
+    local-pkg: ^0.5.0
+    magic-string: ^0.30.5
+    minimatch: ^9.0.3
+    unimport: ^3.4.0
+    unplugin: ^1.5.0
   peerDependencies:
     "@nuxt/kit": ^3.2.2
     "@vueuse/core": "*"
@@ -4018,11 +4053,11 @@ __metadata:
       optional: true
     "@vueuse/core":
       optional: true
-  checksum: dbd6223c27dc83db608e228758942083e538f742facb74e7bf16c62f917acdbe909c142182b3dde62f3b3ee582c68086fdf63fae6d00ea95859dc9bdad84b758
+  checksum: 5597752953f27ae28415a2223bf3dc8cb8bca2f3cbe704e7a3de77d1b3a4626a3ce0c324fb8c11ea90fd2c7008846df95ddb06931ccf98a9da9f8416cfc615d1
   languageName: node
   linkType: hard
 
-"unplugin@npm:^1.3.2, unplugin@npm:^1.4.0":
+"unplugin@npm:^1.5.0":
   version: 1.5.0
   resolution: "unplugin@npm:1.5.0"
   dependencies:
@@ -4179,7 +4214,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^5.0.2
-    unplugin-auto-import: ^0.16.6
+    unplugin-auto-import: ^0.16.7
     vite: ^4.5.0
     vitest: ^0.34.6
   languageName: unknown
