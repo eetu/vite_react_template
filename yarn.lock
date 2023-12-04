@@ -527,6 +527,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/pluginutils@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@rollup/pluginutils@npm:5.1.0"
+  dependencies:
+    "@types/estree": "npm:^1.0.0"
+    estree-walker: "npm:^2.0.2"
+    picomatch: "npm:^2.3.1"
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: abb15eaec5b36f159ec351b48578401bedcefdfa371d24a914cfdbb1e27d0ebfbf895299ec18ccc343d247e71f2502cba21202bc1362d7ef27d5ded699e5c2b2
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-android-arm-eabi@npm:4.5.1":
   version: 4.5.1
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.5.1"
@@ -4396,7 +4412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^3.5.0":
+"unimport@npm:^3.6.0":
   version: 3.6.0
   resolution: "unimport@npm:3.6.0"
   dependencies:
@@ -4440,17 +4456,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "unplugin-auto-import@npm:0.17.1"
+"unplugin-auto-import@npm:^0.17.2":
+  version: 0.17.2
+  resolution: "unplugin-auto-import@npm:0.17.2"
   dependencies:
     "@antfu/utils": "npm:^0.7.6"
-    "@rollup/pluginutils": "npm:^5.0.5"
+    "@rollup/pluginutils": "npm:^5.1.0"
     fast-glob: "npm:^3.3.2"
     local-pkg: "npm:^0.5.0"
     magic-string: "npm:^0.30.5"
     minimatch: "npm:^9.0.3"
-    unimport: "npm:^3.5.0"
+    unimport: "npm:^3.6.0"
     unplugin: "npm:^1.5.1"
   peerDependencies:
     "@nuxt/kit": ^3.2.2
@@ -4460,7 +4476,7 @@ __metadata:
       optional: true
     "@vueuse/core":
       optional: true
-  checksum: 1bb78974abab00053f41f74b0c9ab312f734412815a8f3dee7e8558d3d744391b6b8acb42a77930ae90cdebce5c45a6a30d57630593b49dcde4c6822aade900d
+  checksum: 591f399e0391820cba1358f10e85f36a2200066e22ff7538065bdbf4c0e2265c3f30be3bf2c16dc7a9e3d5a08c11e8179654df3efbff325a0ab8336a97e01324
   languageName: node
   linkType: hard
 
@@ -4621,7 +4637,7 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.3.2"
-    unplugin-auto-import: "npm:^0.17.1"
+    unplugin-auto-import: "npm:^0.17.2"
     vite: "npm:^5.0.4"
     vitest: "npm:^0.34.6"
   languageName: unknown
