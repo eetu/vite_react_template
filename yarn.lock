@@ -3555,27 +3555,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.40.1":
-  version: 1.40.1
-  resolution: "playwright-core@npm:1.40.1"
+"playwright-core@npm:1.41.0":
+  version: 1.41.0
+  resolution: "playwright-core@npm:1.41.0"
   bin:
     playwright-core: cli.js
-  checksum: b8945a5eec68a2772be537219c81f74b8fbd1545650c908c41fdcb2b9eb40f488968d1fb59c61ca58afb923af1e390dd621bba3099521fcd3d9a63ef3645a203
+  checksum: d87be32ed9a97bb6d379afaa1f0bc8ae1369cfc27468e89df58a723c51ea7e242ae91107a7aada7564da68f7b18fa2925c25d9f238be60410c7fd6c4923901ae
   languageName: node
   linkType: hard
 
-"playwright@npm:^1.40.1":
-  version: 1.40.1
-  resolution: "playwright@npm:1.40.1"
+"playwright@npm:^1.41.0":
+  version: 1.41.0
+  resolution: "playwright@npm:1.41.0"
   dependencies:
     fsevents: "npm:2.3.2"
-    playwright-core: "npm:1.40.1"
+    playwright-core: "npm:1.41.0"
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     playwright: cli.js
-  checksum: 95cf79f1574accbff18fac4b876aa3811640314ee74cf4cd1c249398cd49824e55dc664039342a18d2d2fa4f5ad460ce91a97cb15942ab5d71c8ab04f442dc32
+  checksum: 777760f8ceef66d09270420f9b57fd8fdadd15ee1b56893e2dc25d4fa8690dd51eebd187cea64d63150b4cb2f488fc6e1d213bb0976ac441b3a1ab3dfd72cb13
   languageName: node
   linkType: hard
 
@@ -4528,7 +4528,7 @@ __metadata:
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
     eslint-plugin-unused-imports: "npm:^3.0.0"
     jsdom: "npm:^23.2.0"
-    playwright: "npm:^1.40.1"
+    playwright: "npm:^1.41.0"
     prettier: "npm:^3.2.3"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
