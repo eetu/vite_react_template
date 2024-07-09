@@ -2557,6 +2557,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-react@https://github.com/eetu/eslint-config-react#1.0.0":
+  version: 1.0.0
+  resolution: "eslint-config-react@https://github.com/eetu/eslint-config-react.git#commit=51abbeefefa1ba89251e87f8c3ed7811474b82f8"
+  dependencies:
+    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.0.0"
+    eslint-plugin-react: "npm:^7.34.3"
+    eslint-plugin-react-hooks: "npm:^4.6.2"
+    eslint-plugin-react-refresh: "npm:^0.4.7"
+  peerDependencies:
+    eslint: ">= 9"
+    prettier: ">= 3"
+    typescript: ">= 5"
+    typescript-eslint: ">= 7"
+  checksum: 0364a89f1d28fdbee1f253a2843fd29ad389c1d28d2da217cfd9b56f24b849afca531cd3603d59658369be8ec0243c17ed1eed9d254490ae699082f0091f9925
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react-hooks@npm:^4.6.2":
   version: 4.6.2
   resolution: "eslint-plugin-react-hooks@npm:4.6.2"
@@ -5761,9 +5778,7 @@ __metadata:
     "@vitejs/plugin-react-swc": "npm:^3.7.0"
     eslint: "npm:^9.6.0"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.0.0"
-    eslint-plugin-react: "npm:^7.34.3"
-    eslint-plugin-react-hooks: "npm:^4.6.2"
-    eslint-plugin-react-refresh: "npm:^0.4.7"
+    eslint-config-react: "https://github.com/eetu/eslint-config-react#1.0.0"
     jsdom: "npm:^24.1.0"
     playwright: "npm:^1.45.1"
     prettier: "npm:^3.3.2"
