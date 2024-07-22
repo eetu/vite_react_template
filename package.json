@@ -26,7 +26,7 @@
     "eslint": "^9.7.0",
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.0",
     "eslint-config-react": "https://github.com/eetu/eslint-config-react#1.0.0",
-    "jsdom": "^24.1.0",
+    "jsdom": "^24.1.1",
     "playwright": "^1.45.2",
     "prettier": "^3.3.3",
     "typescript": "^5.5.3",
