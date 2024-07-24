@@ -29,7 +29,7 @@
     "jsdom": "^24.1.1",
     "playwright": "^1.45.3",
     "prettier": "^3.3.3",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "typescript-eslint": "^7.17.0",
     "unplugin-auto-import": "^0.18.1",
     "vite": "^5.3.4",
