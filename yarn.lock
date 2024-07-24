@@ -935,9 +935,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^6.4.7":
-  version: 6.4.7
-  resolution: "@testing-library/jest-dom@npm:6.4.7"
+"@testing-library/jest-dom@npm:^6.4.8":
+  version: 6.4.8
+  resolution: "@testing-library/jest-dom@npm:6.4.8"
   dependencies:
     "@adobe/css-tools": "npm:^4.4.0"
     "@babel/runtime": "npm:^7.9.2"
@@ -947,24 +947,7 @@ __metadata:
     dom-accessibility-api: "npm:^0.6.3"
     lodash: "npm:^4.17.21"
     redent: "npm:^3.0.0"
-  peerDependencies:
-    "@jest/globals": ">= 28"
-    "@types/bun": "*"
-    "@types/jest": ">= 28"
-    jest: ">= 28"
-    vitest: ">= 0.32"
-  peerDependenciesMeta:
-    "@jest/globals":
-      optional: true
-    "@types/bun":
-      optional: true
-    "@types/jest":
-      optional: true
-    jest:
-      optional: true
-    vitest:
-      optional: true
-  checksum: bddbb18e968c64a1ab0b2b1e93728e9c60b1db72efc6ce4f38e3fb365c437f13d9d926bfef7bd62eb62339e0482a91fbdb4801ce29dc163a251fad874c172097
+  checksum: 011e5a309e2cfc0c5cee6454427030d9a5d690df212bedcc78c15ee8d23218c3e51be32617ca879f060445ba0ba38e1b8d224b5ab11444ee076c37ed8c1c123a
   languageName: node
   linkType: hard
 
@@ -5659,7 +5642,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite_react_template@workspace:."
   dependencies:
-    "@testing-library/jest-dom": "npm:^6.4.7"
+    "@testing-library/jest-dom": "npm:^6.4.8"
     "@testing-library/react": "npm:^15.0.7"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.2.19"
