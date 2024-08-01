@@ -33,7 +33,7 @@
     "typescript-eslint": "^7.18.0",
     "unplugin-auto-import": "^0.18.2",
     "vite": "^5.3.5",
-    "vitest": "^2.0.4"
+    "vitest": "^2.0.5"
   },
   "packageManager": "yarn@4.0.2"
 }
