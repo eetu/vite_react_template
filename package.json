@@ -24,8 +24,7 @@
     "@typescript-eslint/parser": "^7.17.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "eslint": "^9.9.1",
-    "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.0",
-    "eslint-config-react": "https://github.com/eetu/eslint-config-react#1.0.0",
+    "eslint-config-react": "https://github.com/eetu/eslint-config-react#1.1.0",
     "jsdom": "^24.1.1",
     "playwright": "^1.46.1",
     "prettier": "^3.3.3",
@@ -35,5 +34,5 @@
     "vite": "^5.4.2",
     "vitest": "^2.0.5"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.5.0"
 }
