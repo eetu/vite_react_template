@@ -3194,6 +3194,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.30.13":
+  version: 0.30.13
+  resolution: "magic-string@npm:0.30.13"
+  dependencies:
+    "@jridgewell/sourcemap-codec": "npm:^1.5.0"
+  checksum: 10/1f46db78b0afcc5c6acb550f7a6ab7811417b72133ccb9d351d727e6bc17767042ff758a51d090f6f86e7b6c41b28ae0ef1cc8dbb8701a824901babc15f00a07
+  languageName: node
+  linkType: hard
+
 "make-fetch-happen@npm:^13.0.0":
   version: 13.0.1
   resolution: "make-fetch-happen@npm:13.0.1"
@@ -4582,18 +4591,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.18.4":
-  version: 0.18.4
-  resolution: "unplugin-auto-import@npm:0.18.4"
+"unplugin-auto-import@npm:^0.18.5":
+  version: 0.18.5
+  resolution: "unplugin-auto-import@npm:0.18.5"
   dependencies:
     "@antfu/utils": "npm:^0.7.10"
     "@rollup/pluginutils": "npm:^5.1.3"
     fast-glob: "npm:^3.3.2"
     local-pkg: "npm:^0.5.0"
-    magic-string: "npm:^0.30.12"
+    magic-string: "npm:^0.30.13"
     minimatch: "npm:^9.0.5"
     unimport: "npm:^3.13.2"
-    unplugin: "npm:^1.15.0"
+    unplugin: "npm:^1.16.0"
   peerDependencies:
     "@nuxt/kit": ^3.2.2
     "@vueuse/core": "*"
@@ -4602,11 +4611,11 @@ __metadata:
       optional: true
     "@vueuse/core":
       optional: true
-  checksum: 10/a8d5b0bbaff90c3b55cc9619866f7a98f9929fa759f9419738627d0d991415f0217a93346183ebc0f59f053926b923fb9815218926e95fa33a63dbbbfd89b7f5
+  checksum: 10/315c6eb212329ac2367f3156976464bbb2296ccc77714452ef790a7fbb060079452414618a2c777b207a8eb38caba1842fac6928bc92aad861f7962b56d17e06
   languageName: node
   linkType: hard
 
-"unplugin@npm:^1.15.0":
+"unplugin@npm:^1.15.0, unplugin@npm:^1.16.0":
   version: 1.16.0
   resolution: "unplugin@npm:1.16.0"
   dependencies:
@@ -4746,7 +4755,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.5.4"
     typescript-eslint: "npm:^8.15.0"
-    unplugin-auto-import: "npm:^0.18.4"
+    unplugin-auto-import: "npm:^0.18.5"
     vite: "npm:^5.4.11"
     vitest: "npm:^2.1.5"
   languageName: unknown
