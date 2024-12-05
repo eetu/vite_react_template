@@ -27,7 +27,7 @@
     "eslint-config-react": "https://github.com/eetu/eslint-config-react#1.2.0",
     "jsdom": "^25.0.1",
     "playwright": "^1.49.0",
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0",
     "unplugin-auto-import": "^0.18.6",
