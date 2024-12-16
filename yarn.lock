@@ -3487,6 +3487,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.30.15":
+  version: 0.30.15
+  resolution: "magic-string@npm:0.30.15"
+  dependencies:
+    "@jridgewell/sourcemap-codec": "npm:^1.5.0"
+  checksum: 10/321f6e3156ac65d938fb7e08b3eaef9f4f5718180b7507f37bb55273f1faf979ab42e3b550a9e5dbbacf1c9a0f416157ab01c08619938734dcbbe02e2ef10872
+  languageName: node
+  linkType: hard
+
 "make-fetch-happen@npm:^13.0.0":
   version: 13.0.1
   resolution: "make-fetch-happen@npm:13.0.1"
@@ -3549,7 +3558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.4, minimatch@npm:^9.0.5":
+"minimatch@npm:^9.0.4":
   version: 9.0.5
   resolution: "minimatch@npm:9.0.5"
   dependencies:
@@ -4916,9 +4925,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^3.13.4":
-  version: 3.13.4
-  resolution: "unimport@npm:3.13.4"
+"unimport@npm:^3.14.5":
+  version: 3.14.5
+  resolution: "unimport@npm:3.14.5"
   dependencies:
     "@rollup/pluginutils": "npm:^5.1.3"
     acorn: "npm:^8.14.0"
@@ -4929,11 +4938,12 @@ __metadata:
     magic-string: "npm:^0.30.14"
     mlly: "npm:^1.7.3"
     pathe: "npm:^1.1.2"
+    picomatch: "npm:^4.0.2"
     pkg-types: "npm:^1.2.1"
     scule: "npm:^1.3.0"
     strip-literal: "npm:^2.1.1"
     unplugin: "npm:^1.16.0"
-  checksum: 10/f1ac4661c02f56dace8cc7e9dee437af55c65737f38ccfe1ca14b2b97890d85c0a4a1e0ba087ce6fee9970c04e7d8d8ecde57be0d776e5dc0ccfc2385eb61ab6
+  checksum: 10/8bdc546ff11fcbb2a034b89bc382e273928c147699a9c9d4d7470fe7deac700ef9b2796bdf12b939b8e849230ce983ebcd6e4d2fd9b5f6133b4ba5bda2169cd4
   languageName: node
   linkType: hard
 
@@ -4955,18 +4965,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.18.6":
-  version: 0.18.6
-  resolution: "unplugin-auto-import@npm:0.18.6"
+"unplugin-auto-import@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "unplugin-auto-import@npm:0.19.0"
   dependencies:
     "@antfu/utils": "npm:^0.7.10"
     "@rollup/pluginutils": "npm:^5.1.3"
-    fast-glob: "npm:^3.3.2"
     local-pkg: "npm:^0.5.1"
-    magic-string: "npm:^0.30.14"
-    minimatch: "npm:^9.0.5"
-    unimport: "npm:^3.13.4"
-    unplugin: "npm:^1.16.0"
+    magic-string: "npm:^0.30.15"
+    picomatch: "npm:^4.0.2"
+    unimport: "npm:^3.14.5"
+    unplugin: "npm:^2.1.0"
   peerDependencies:
     "@nuxt/kit": ^3.2.2
     "@vueuse/core": "*"
@@ -4975,7 +4984,7 @@ __metadata:
       optional: true
     "@vueuse/core":
       optional: true
-  checksum: 10/f729dc4d8b8a5cd9cea311bf3493c54366e658103af44137d7515ba0c50518f0724abfd7786e03bd5a52a0360fef9e3cb48374c4dbf445336f3d80732208fd5c
+  checksum: 10/66242f2f94b22f0fda60342dadc5602bd235c83520ce3782b201ef2256750a6bed6ffd81fcbece49afdde19024f9f9434505d030a6308be5cbf75f9862d61be6
   languageName: node
   linkType: hard
 
@@ -4986,6 +4995,16 @@ __metadata:
     acorn: "npm:^8.14.0"
     webpack-virtual-modules: "npm:^0.6.2"
   checksum: 10/5cb6704e11eb39b68b1f51dbdc48b0bd4ac01e3ceefe8f722a3cb26192d5e0a30619a3d3f4cf5a479e41097736d24729f10f6fc2bf1fa62213912306ea459049
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "unplugin@npm:2.1.0"
+  dependencies:
+    acorn: "npm:^8.14.0"
+    webpack-virtual-modules: "npm:^0.6.2"
+  checksum: 10/b01041839c25ff5b0997677e00ffe8d98aa532443833968d652c0165eab3159702c3c3d1237afa58db35af5ccf25dd0a05782d78b7c22000742797e382362bcd
   languageName: node
   linkType: hard
 
@@ -5128,7 +5147,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.7.2"
     typescript-eslint: "npm:^8.18.0"
-    unplugin-auto-import: "npm:^0.18.6"
+    unplugin-auto-import: "npm:^0.19.0"
     vite: "npm:^6.0.3"
     vitest: "npm:^2.1.8"
   languageName: unknown
