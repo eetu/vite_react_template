@@ -12,19 +12,19 @@
     "test:e2e": "playwright test -c ./playwright.configuration.ts"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.2.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.2.0",
-    "@types/react": "^18.3.13",
-    "@types/react-dom": "^18.2.19",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
     "@vitejs/plugin-react-swc": "^3.8.1",
     "eslint": "^9.23.0",
-    "eslint-config-react": "https://github.com/eetu/eslint-config-react#1.2.0",
+    "eslint-config-react": "https://github.com/eetu/eslint-config-react#2.1.2",
     "jsdom": "^26.0.0",
     "playwright": "^1.51.1",
     "prettier": "^3.5.3",
