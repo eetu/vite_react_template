@@ -28,7 +28,7 @@
     "jsdom": "^26.0.0",
     "playwright": "^1.51.1",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.0",
     "unplugin-auto-import": "^19.1.2",
     "vite": "^6.2.5",
