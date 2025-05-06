@@ -463,6 +463,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint-community/eslint-utils@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "@eslint-community/eslint-utils@npm:4.7.0"
+  dependencies:
+    eslint-visitor-keys: "npm:^3.4.3"
+  peerDependencies:
+    eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+  checksum: 10/43ed5d391526d9f5bbe452aef336389a473026fca92057cf97c576db11401ce9bcf8ef0bf72625bbaf6207ed8ba6bf0dcf4d7e809c24f08faa68a28533c491a7
+  languageName: node
+  linkType: hard
+
 "@eslint-community/regexpp@npm:^4.10.0":
   version: 4.11.1
   resolution: "@eslint-community/regexpp@npm:4.11.1"
@@ -1165,7 +1176,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.31.1, @typescript-eslint/eslint-plugin@npm:^8.31.1":
+"@typescript-eslint/eslint-plugin@npm:8.32.0":
+  version: 8.32.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:8.32.0"
+  dependencies:
+    "@eslint-community/regexpp": "npm:^4.10.0"
+    "@typescript-eslint/scope-manager": "npm:8.32.0"
+    "@typescript-eslint/type-utils": "npm:8.32.0"
+    "@typescript-eslint/utils": "npm:8.32.0"
+    "@typescript-eslint/visitor-keys": "npm:8.32.0"
+    graphemer: "npm:^1.4.0"
+    ignore: "npm:^5.3.1"
+    natural-compare: "npm:^1.4.0"
+    ts-api-utils: "npm:^2.1.0"
+  peerDependencies:
+    "@typescript-eslint/parser": ^8.0.0 || ^8.0.0-alpha.0
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: ">=4.8.4 <5.9.0"
+  checksum: 10/358b337948b2037816c3692c4ebfdb2eff90d367c6f3cdc5615c51be4eebc668c1c44e5fdfc71c08625f08b8f714ce6d0e59eccc7fe6cdabdd0800eb8ea3ab81
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/eslint-plugin@npm:^8.31.1":
   version: 8.31.1
   resolution: "@typescript-eslint/eslint-plugin@npm:8.31.1"
   dependencies:
@@ -1186,23 +1218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.31.1":
-  version: 8.31.1
-  resolution: "@typescript-eslint/parser@npm:8.31.1"
-  dependencies:
-    "@typescript-eslint/scope-manager": "npm:8.31.1"
-    "@typescript-eslint/types": "npm:8.31.1"
-    "@typescript-eslint/typescript-estree": "npm:8.31.1"
-    "@typescript-eslint/visitor-keys": "npm:8.31.1"
-    debug: "npm:^4.3.4"
-  peerDependencies:
-    eslint: ^8.57.0 || ^9.0.0
-    typescript: ">=4.8.4 <5.9.0"
-  checksum: 10/506c98b9c265faea4376f02e4d19b4722cd11c40f8e08e4c1b456eeb47bc59b70abaa604e633f1070eaf7c785cf7b39f30346f001d3e5257f8074f07a113eeff
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/parser@npm:^8.32.0":
+"@typescript-eslint/parser@npm:8.32.0, @typescript-eslint/parser@npm:^8.32.0":
   version: 8.32.0
   resolution: "@typescript-eslint/parser@npm:8.32.0"
   dependencies:
@@ -1250,6 +1266,21 @@ __metadata:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <5.9.0"
   checksum: 10/d4c31837c1beb55f7037b0d94c2d73a855c7d921b3b07d68f6d7b476c475765f7707c7375f6190c1863e98e1bc98b8ce444806ab6a02759811eff1c710ab82a6
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/type-utils@npm:8.32.0":
+  version: 8.32.0
+  resolution: "@typescript-eslint/type-utils@npm:8.32.0"
+  dependencies:
+    "@typescript-eslint/typescript-estree": "npm:8.32.0"
+    "@typescript-eslint/utils": "npm:8.32.0"
+    debug: "npm:^4.3.4"
+    ts-api-utils: "npm:^2.1.0"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: ">=4.8.4 <5.9.0"
+  checksum: 10/cb2a2bc3748a00f4f43e8262e2a929cac866ffe887493ae5fc5e935915c3b65f6cc7627754f6d16a47ff70a4306a54b9141fa7797518f17ed92421272aa24c45
   languageName: node
   linkType: hard
 
@@ -1315,6 +1346,21 @@ __metadata:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <5.9.0"
   checksum: 10/c96253140f5a456b2dc4c9664d4527a88d8f537d9694e1f165665de20aea3936624cf93075f08f5cc2f5080e76021b9b2404a536d1b7980e38e3d1776c7c888c
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/utils@npm:8.32.0":
+  version: 8.32.0
+  resolution: "@typescript-eslint/utils@npm:8.32.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.7.0"
+    "@typescript-eslint/scope-manager": "npm:8.32.0"
+    "@typescript-eslint/types": "npm:8.32.0"
+    "@typescript-eslint/typescript-estree": "npm:8.32.0"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: ">=4.8.4 <5.9.0"
+  checksum: 10/df39111c374cffb36074fc1cb02ee08468c1f56ced8ff5ce47262add570a5a78f1d677759a7efa3e6d7840e97e0d1d5fae0dbca1737185c59fb3ef58e6be15d0
   languageName: node
   linkType: hard
 
@@ -2851,7 +2897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^3.3.0":
+"eslint-visitor-keys@npm:^3.3.0, eslint-visitor-keys@npm:^3.4.3":
   version: 3.4.3
   resolution: "eslint-visitor-keys@npm:3.4.3"
   checksum: 10/3f357c554a9ea794b094a09bd4187e5eacd1bc0d0653c3adeb87962c548e6a1ab8f982b86963ae1337f5d976004146536dcee5d0e2806665b193fbfbf1a9231b
@@ -6240,17 +6286,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.31.1":
-  version: 8.31.1
-  resolution: "typescript-eslint@npm:8.31.1"
+"typescript-eslint@npm:^8.32.0":
+  version: 8.32.0
+  resolution: "typescript-eslint@npm:8.32.0"
   dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:8.31.1"
-    "@typescript-eslint/parser": "npm:8.31.1"
-    "@typescript-eslint/utils": "npm:8.31.1"
+    "@typescript-eslint/eslint-plugin": "npm:8.32.0"
+    "@typescript-eslint/parser": "npm:8.32.0"
+    "@typescript-eslint/utils": "npm:8.32.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <5.9.0"
-  checksum: 10/becb67b353bf9e36a924f71dba7315bad1ae6c697dcbfa3510f2bacd7a95074ee5c56bb288c77f486a6b2345c92ca68201edb2145fafca6925842075224070d6
+  checksum: 10/d040cc823dc3f9acaf3f540a08a3e24100894cd369dc1763369234c0ba1a5e7e7be97af8071a5d4b611deaedb93a0d7f34c37adaa05a3f8ec0308cca64c6bbf4
   languageName: node
   linkType: hard
 
@@ -6561,7 +6607,7 @@ __metadata:
     react: "npm:^19.1.0"
     react-dom: "npm:^19.1.0"
     typescript: "npm:^5.8.3"
-    typescript-eslint: "npm:^8.31.1"
+    typescript-eslint: "npm:^8.32.0"
     unplugin-auto-import: "npm:^19.1.2"
     vite: "npm:^6.3.4"
     vitest: "npm:^3.1.2"
