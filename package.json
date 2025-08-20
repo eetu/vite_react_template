@@ -22,7 +22,7 @@
     "@types/react-dom": "^19.1.6",
     "@typescript-eslint/eslint-plugin": "^8.40.0",
     "@typescript-eslint/parser": "^8.40.0",
-    "@vitejs/plugin-react-swc": "^4.0.0",
+    "@vitejs/plugin-react-swc": "^4.0.1",
     "eslint": "^9.33.0",
     "eslint-config-react": "https://github.com/eetu/eslint-config-react#2.1.2",
     "jsdom": "^26.1.0",
