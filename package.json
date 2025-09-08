@@ -23,7 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^8.41.0",
     "@typescript-eslint/parser": "^8.41.0",
     "@vitejs/plugin-react-swc": "^4.0.1",
-    "eslint": "^9.34.0",
+    "eslint": "^9.35.0",
     "eslint-config-react": "https://github.com/eetu/eslint-config-react#2.1.2",
     "jsdom": "^26.1.0",
     "playwright": "^1.55.0",
