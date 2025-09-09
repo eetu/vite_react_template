@@ -1113,7 +1113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.42.0, @typescript-eslint/parser@npm:^8.42.0":
+"@typescript-eslint/parser@npm:8.42.0":
   version: 8.42.0
   resolution: "@typescript-eslint/parser@npm:8.42.0"
   dependencies:
@@ -1126,6 +1126,22 @@ __metadata:
     eslint: ^8.57.0 || ^9.0.0
     typescript: ">=4.8.4 <6.0.0"
   checksum: 10/25eb2d08c118742dc01c2aa279ea4ba2d277e2d9a042ffd4f9bda9e94d7ff2aa90b63aad1204a82617a5c63ddd3dd553d927944cd9c8345826484d0d523cf7ad
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/parser@npm:^8.43.0":
+  version: 8.43.0
+  resolution: "@typescript-eslint/parser@npm:8.43.0"
+  dependencies:
+    "@typescript-eslint/scope-manager": "npm:8.43.0"
+    "@typescript-eslint/types": "npm:8.43.0"
+    "@typescript-eslint/typescript-estree": "npm:8.43.0"
+    "@typescript-eslint/visitor-keys": "npm:8.43.0"
+    debug: "npm:^4.3.4"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10/cb3bd8bd48627cd502bb3cc5bb444e32c99d47ac41c092c457fcf0109f4a67491a42537abee51eee13498345f5dbd00dd11ccbf7a1d782a81d5ec9ee3e5df3ad
   languageName: node
   linkType: hard
 
@@ -6053,7 +6069,7 @@ __metadata:
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
     "@typescript-eslint/eslint-plugin": "npm:^8.43.0"
-    "@typescript-eslint/parser": "npm:^8.42.0"
+    "@typescript-eslint/parser": "npm:^8.43.0"
     "@vitejs/plugin-react-swc": "npm:^4.0.1"
     eslint: "npm:^9.35.0"
     eslint-config-react: "https://github.com/eetu/eslint-config-react#2.1.2"
