@@ -11,4 +11,14 @@ export default defineConfig({
       dts: true, // generate TypeScript declaration
     }),
   ],
+  server: {
+    proxy: {
+      // Proxy requests from /api/* to http://localhost:8000
+      "/api": {
+        target: "http://localhost:8000",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+      },
+    },
+  },
 });
