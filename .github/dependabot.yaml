@@ -9,3 +9,5 @@ updates:
         patterns:
           - "@types/react"
           - "@types/react-dom"
+          - "react"
+          - "react-dom"
