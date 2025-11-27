@@ -4899,12 +4899,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-literal@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "strip-literal@npm:3.0.0"
+"strip-literal@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "strip-literal@npm:3.1.0"
   dependencies:
     js-tokens: "npm:^9.0.1"
-  checksum: 10/da1616f654f3ff481e078597b4565373a5eeed78b83de4a11a1a1b98292a9036f2474e528eff19b6eed93370428ff957a473827057c117495086436725d7efad
+  checksum: 10/6eb00906a1c343a1050579d1d6023e067a2d72152edb92e64cad49535115beb2e77905ace24aa459f29b66e75edba75ef9d8eca90575b0322640d64a5d37e131
   languageName: node
   linkType: hard
 
@@ -5226,9 +5226,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "unimport@npm:5.4.0"
+"unimport@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "unimport@npm:5.5.0"
   dependencies:
     acorn: "npm:^8.15.0"
     escape-string-regexp: "npm:^5.0.0"
@@ -5240,11 +5240,11 @@ __metadata:
     picomatch: "npm:^4.0.3"
     pkg-types: "npm:^2.3.0"
     scule: "npm:^1.3.0"
-    strip-literal: "npm:^3.0.0"
+    strip-literal: "npm:^3.1.0"
     tinyglobby: "npm:^0.2.15"
     unplugin: "npm:^2.3.10"
     unplugin-utils: "npm:^0.3.0"
-  checksum: 10/31ea472fbfa84d951f3f9720d261b42dd1a2492012d9e91dd755a2f468e136f0f22cdfaf6202940801d99cd50a9b2f7d3478800a22a482dbbe3ab32837ddff26
+  checksum: 10/b9c9c5c4229ca9cdf499bba70012ca29a647aeb78683ac8bcfd0a7cd735f6e302fbc8f8895fb6b1f7fe92739ce9ce5535e74b3b8280882a6757df9528bec8069
   languageName: node
   linkType: hard
 
@@ -5266,16 +5266,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^20.2.0":
-  version: 20.2.0
-  resolution: "unplugin-auto-import@npm:20.2.0"
+"unplugin-auto-import@npm:^20.3.0":
+  version: 20.3.0
+  resolution: "unplugin-auto-import@npm:20.3.0"
   dependencies:
     local-pkg: "npm:^1.1.2"
-    magic-string: "npm:^0.30.19"
+    magic-string: "npm:^0.30.21"
     picomatch: "npm:^4.0.3"
-    unimport: "npm:^5.4.0"
-    unplugin: "npm:^2.3.10"
-    unplugin-utils: "npm:^0.3.0"
+    unimport: "npm:^5.5.0"
+    unplugin: "npm:^2.3.11"
+    unplugin-utils: "npm:^0.3.1"
   peerDependencies:
     "@nuxt/kit": ^4.0.0
     "@vueuse/core": "*"
@@ -5284,7 +5284,7 @@ __metadata:
       optional: true
     "@vueuse/core":
       optional: true
-  checksum: 10/feb40d45b80f84a676ebdda61edf004c2a2bab11d72b5865502ea9a09dd3b60d684c671c43a21f6842213d2f3c60176ea630d3382954d2ce890a6ce1e357a643
+  checksum: 10/374ba898510caa701810111a364cd9bcd24c80338c55cce11ee640dca7d61c9b8f055cf966cb2c8ad92b77fb2683cf1994095f80c6e43d5537168ca0d6ad2840
   languageName: node
   linkType: hard
 
@@ -5298,6 +5298,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unplugin-utils@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "unplugin-utils@npm:0.3.1"
+  dependencies:
+    pathe: "npm:^2.0.3"
+    picomatch: "npm:^4.0.3"
+  checksum: 10/202c8160a45ac9b1d9e5a29157ccffc6808810acb80e0ccd73b100b7c3f8148cabf3ca46e40ceafd8ed46bd479f5b66e49949c7cf0557e7864b07ac5632ac0ad
+  languageName: node
+  linkType: hard
+
 "unplugin@npm:^2.3.10":
   version: 2.3.10
   resolution: "unplugin@npm:2.3.10"
@@ -5307,6 +5317,18 @@ __metadata:
     picomatch: "npm:^4.0.3"
     webpack-virtual-modules: "npm:^0.6.2"
   checksum: 10/3d6d5bbc670311d78cad1a24b6961695c6c7ea7c9bc4558895693b388a635a5d1f16900b7b825f5962a5d1cb045f4e748f105058fdbb00d2f321ceaa9719da44
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^2.3.11":
+  version: 2.3.11
+  resolution: "unplugin@npm:2.3.11"
+  dependencies:
+    "@jridgewell/remapping": "npm:^2.3.5"
+    acorn: "npm:^8.15.0"
+    picomatch: "npm:^4.0.3"
+    webpack-virtual-modules: "npm:^0.6.2"
+  checksum: 10/7b4adbfaac8894e8491c452c0b67c612b57e103761e842d9013ebea89a4ae92a78df4ec0aa30e5e3eaaefd47dd287973d5a662271624b7346a15d9236d257f9d
   languageName: node
   linkType: hard
 
@@ -5449,7 +5471,7 @@ __metadata:
     react-dom: "npm:^19.2.0"
     typescript: "npm:^5.9.3"
     typescript-eslint: "npm:^8.48.0"
-    unplugin-auto-import: "npm:^20.2.0"
+    unplugin-auto-import: "npm:^20.3.0"
     vite: "npm:^7.2.4"
     vitest: "npm:^4.0.14"
   languageName: unknown
