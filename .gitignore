@@ -18,6 +18,7 @@ yarn-error.log*
 
 # test output
 playwright-report
+__screenshots__
 
 # local env files
 .env*

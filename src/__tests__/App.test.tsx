@@ -1,11 +1,12 @@
-import { render } from "@testing-library/react";
+import { expect } from "vitest";
+import { render } from "vitest-browser-react";
 
 import App from "../App.tsx";
 
 describe("App", () => {
-  it("renders hello world", () => {
-    const result = render(<App />);
+  it("renders hello world", async () => {
+    const screen = await render(<App />);
 
-    expect(result.findByText("Hello World!")).toBe;
+    await expect.element(screen.getByText("Hello World!")).toBeVisible();
   });
 });
