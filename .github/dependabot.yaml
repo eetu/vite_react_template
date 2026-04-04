@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     groups:
       react-types:
         patterns:
@@ -11,3 +11,7 @@ updates:
           - "@types/react-dom"
           - "react"
           - "react-dom"
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
