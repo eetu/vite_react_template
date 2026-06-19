@@ -1,4 +1,4 @@
-import eslintReactConfig from "eslint-config/react";
+import eslintReactConfig from "@anarkisti/eslint-config/react";
 
 export default [
   ...eslintReactConfig,
